@@ -17,7 +17,7 @@
     </div>
     <div class="login_form_r5">
       <login-checkbox label="Keep me sign in" />
-      <label>Forget passwords</label>
+     <router-link to="/repass" style="color: white"> <label>Forget passwords</label> </router-link>
     </div>
     <div>
       <login-submit />
